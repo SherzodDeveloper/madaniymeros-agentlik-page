@@ -1,0 +1,117 @@
+body{
+    background-color: #F6F6F9;
+}
+
+#tab_naws {
+    background-color: #fff;
+    border-radius: 15px;
+}
+#v-tabs-home-tab,
+#v-tabs-profile-tab, 
+#v-tabs-messages-tab,
+#v-tabs-messages-tab1, 
+#v-tabs-messages-tab2, 
+#v-tabs-messages-tab3, 
+#v-tabs-messages-tab4,
+#v-tabs-messages-tab5, 
+#v-tabs-messages-tab6, 
+#v-tabs-messages-tab7,
+#home-tab0,
+#profile-tab0,
+#contact-tab0,
+#contact-tab12, 
+#contact-tab11,
+#contact-tab10,
+#profile-tab9 ,
+#home-tab8{
+    border-bottom: none;
+    color: #01011C;
+    /* font-weight: 600; */
+    font-size: 16px;
+}
+#contact-tab12, 
+#contact-tab11,
+#contact-tab10,
+#profile-tab9 ,
+#home-tab8{
+    font-size: 13px;
+}
+#v-tabs-home-tab:focus,
+#v-tabs-profile-tab:focus, 
+#v-tabs-messages-tab:focus,
+#v-tabs-messages-tab1:focus, 
+#v-tabs-messages-tab2:focus, 
+#v-tabs-messages-tab3:focus, 
+#v-tabs-messages-tab4:focus,
+#v-tabs-messages-tab5:focus, 
+#v-tabs-messages-tab6:focus,
+#home-tab0:focus,
+#profile-tab0:focus,
+#contact-tab0:focus, 
+#contact-tab12:focus, 
+#contact-tab11:focus, 
+#contact-tab10:focus, 
+#profile-tab9:focus, 
+#home-tab8:focus, 
+#v-tabs-messages-tab7:focus {
+  background-color: #00B57F;
+  color: #fff!important;
+}
+
+#card-text{
+    color: #00B57F;
+}
+#accordionFlushExample{
+  display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+    #raxbariyat {
+      font-size: 16px !important;
+    }
+    #img_fluid{
+        height: 190px !important;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    /* #raxbariyat {
+      font-size: 16px !important;
+    } */
+    #img_fluid{
+        height: 230px !important;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    #accordionFlushExample{
+      display: block;
+    }
+    .tab-media{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+   .input-group-append{
+    width: 100px;
+   }
+   #search_btn{
+    display: none;
+   }
+  }
+  .has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+  
